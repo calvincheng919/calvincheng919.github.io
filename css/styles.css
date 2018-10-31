@@ -1,2 +1,23 @@
 /* My CSS Style */
 
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 40px;
+    font-family: 'Open Sans', 'sans-serif';
+    background-color: #fff;
+    color: #444;
+  }
+  
+  h1, p {
+    margin: 0 0 1em 0;
+  }
+  
+  .wrapper {
+    max-width: 940px;
+    margin: 0 20px;
+    display: grid;
+    grid-gap: 10px;
+  }
