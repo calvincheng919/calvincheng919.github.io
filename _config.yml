@@ -1,1 +1,8 @@
 theme: jekyll-theme-slate
+
+title: My Jekyll Blog
+email: calvincheng919@gmail.com
+description: My latest stories and photos
+url: https://calvincheng919.github.io
+twitter_username: myjekyllblog
+github_username: myjekyllblog
