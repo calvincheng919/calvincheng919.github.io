@@ -1,8 +1,14 @@
-theme: jekyll-theme-slate
-
-title: My Jekyll Blog
+title: GH Pages Tutorial
+author: Calvin Cheng
 email: calvincheng919@gmail.com
-description: My latest stories and photos
-url: https://calvincheng919.github.io
-twitter_username: myjekyllblog
-github_username: myjekyllblog
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+# social links
+twitter_username: calvincheng919
+github_username:  calvincheng919
+
+show_excerpts: true # set to false to remove excerpts on the homepage
+
+theme: minima
