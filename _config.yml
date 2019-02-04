@@ -15,5 +15,7 @@ header_pages:
  - portfolio.md
  - about.md
 
-
 theme: minima
+
+# Google Analytics
+google_analytics: UA-122139025-5
