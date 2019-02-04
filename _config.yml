@@ -2,16 +2,12 @@ title: calvin cheng
 author: calvin cheng
 email: calvincheng919@gmail.com
 description:  # this means to ignore newlines until "baseurl:"
- Thank you for visiting me here on Github. 
- I am a tinkerer... I tinker. 
- ex-IBM Cognos consultant; 
- ex-Amazon BI Manager; 
- ex-AWS Something; 
- Love Javascript
+ I am a tinkerer... I tinker 
 
 #social links
 twitter_username: calvincheng919
 github_username:  calvincheng919
+linkedin_username: calvincheng
 
 show_excerpts: true # set to false to remove excerpts on the homepage
 
