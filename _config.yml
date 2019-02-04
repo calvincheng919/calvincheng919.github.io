@@ -10,8 +10,26 @@ description:  # this means to ignore newlines until "baseurl:"
  Love Javascript
 
 # social links
-twitter_username: calvincheng919
-github_username:  calvincheng919
+# twitter_username: calvincheng919
+# github_username:  calvincheng919
+
+# generate social links in footer
+  social_links:
+    twitter: calvincheng919
+    github:  calvincheng919
+    rss: rss
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
 
 show_excerpts: true # set to false to remove excerpts on the homepage
 
