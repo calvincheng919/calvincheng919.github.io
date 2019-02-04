@@ -10,8 +10,8 @@ description:  # this means to ignore newlines until "baseurl:"
  Love Javascript
 
 #social links
-  twitter_username: calvincheng919
-  github_username:  calvincheng919
+twitter_username: calvincheng919
+github_username:  calvincheng919
 
 show_excerpts: true # set to false to remove excerpts on the homepage
 
