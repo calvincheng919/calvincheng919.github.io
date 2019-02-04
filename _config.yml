@@ -17,7 +17,7 @@ description:  # this means to ignore newlines until "baseurl:"
 social_links:
   twitter: calvincheng919
   github:  calvincheng919
-  rss: rss
+
 
 show_excerpts: true # set to false to remove excerpts on the homepage
 
