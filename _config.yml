@@ -10,19 +10,19 @@ description:  # this means to ignore newlines until "baseurl:"
  Love Javascript
 
 # social links
-# twitter_username: calvincheng919
-# github_username:  calvincheng919
+twitter_username: calvincheng919
+github_username:  calvincheng919
 
 # generate social links in footer
-social_links:
-  twitter: calvincheng919
-  github:  calvincheng919
-  rss: rss
+#social_links:
+#  twitter: calvincheng919
+#  github:  calvincheng919
+#  rss: rss
 
 show_excerpts: true # set to false to remove excerpts on the homepage
 
 header_pages:
  - about.md
- - projects.md
+
 
 theme: minima
