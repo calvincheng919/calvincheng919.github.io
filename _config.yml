@@ -9,7 +9,7 @@ twitter_username: calvincheng919
 github_username:  calvincheng919
 linkedin_username: calvincheng
 
-show_excerpts: true # set to false to remove excerpts on the homepage
+show_excerpts: false # set to false to remove excerpts on the homepage
 
 header_pages:
  - portfolio.md
