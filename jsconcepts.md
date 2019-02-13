@@ -13,3 +13,15 @@ Closures and Scope
 Hoisting
 
 Values vs. Reference
+
+Regex
+
+'this' keyword
+
+Tools - Babel, Gulp, Webpack, more
+
+ReactJS Topics
+* Lifecycle methods
+* Router
+* Props/state
+* React-redux
