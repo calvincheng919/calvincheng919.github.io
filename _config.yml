@@ -16,7 +16,7 @@ header_pages:
  - about.md
  - jsconcepts.md
 
-theme: jekyll-theme-slate
+theme: minima
 
 # Google Analytics
 google_analytics: UA-122139025-5
