@@ -1,4 +1,4 @@
-### [Home](https://calvincheng.dev)
+[Home](https://calvincheng.dev)
 
 Thanks for stopping by. Not sure why you're here, perhaps a wrong turn at the fork in the interweb road or you want to be completely bored with my 100 Days of Code journal. I created this site to track my progress going through the 100DaysOfCode Challenge. You can read more about the challenge and what it entails [here](https://www.100daysofcode.com/). 
 
