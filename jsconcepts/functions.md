@@ -4,10 +4,9 @@ layout: post
 ---
 ## What are functions?
 
-Functions are blocks of code that can be called to... you know, do whatever you wrote them to do, on-demand, kinda like a Netflix movie you wanna watch and watch now! The basic structure is a definition (so you know what to call/execute later) and a function body (the code that does whatever you want it to do). Related to the first two, there are also parameters you input into the function as arguments when you invoke them (call them, execute them). Not only can you create functions to do stuff, you can also create it to do stuff *and* return a result.
+Functions are blocks of code can call to do whatever you wrote them to do. The basic structure is a function definition (so you know what to call/execute later) and a function body where you insert code for what you want it to do. Functions can also require parameters to be inputted as arguments when they are called (invoke, executed). Not only can you create functions to do stuff, you can also create it to do stuff *and* return a result. In JavaScript, functions are considered first class citizens, meaning they 
 
-
-## How to create functions in JavaScript
+## How do I create functions in JavaScript
 
 There are three basic ways to create a function in JavaScript. I write this yet another post on JS functions not to bore the world wide web, but purely for my own enjoyment and education. I am 99.21% sure no one reads these posts. This is for my future self, so he won't hate me for not writing shit down when I understand them and can articulate them in his own words.
 
