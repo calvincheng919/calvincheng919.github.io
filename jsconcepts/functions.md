@@ -38,11 +38,11 @@ Function declarations omit the assignment to variable of "Way Number 1", and ins
 
 Both methods of creating functions are valid, and acceptable in JavaScript. Both give you the same result for the same input and neither is easier to write than the other. So what the heck is the difference?
 
-The biggest difference is in the way the JavaScript interpreter (in ours and most cases, the browser and NodeJS) treats/executes the function. Specifically, *when* the function is available for invocation. On execution of a piece of code, the interpreter goes from top to bottom; along the way, it takes note of variable definitions and assignments (including function expressions), for which it creates a placeholder in memory for, as well as what gets assigned to it. But that's it, 
+The biggest difference is in the way the JavaScript interpreter (in ours and most cases, the browser and NodeJS) parses the code. Specifically, *when* the function is available for invocation. On parsing a piece of code, the browser goes from top to bottom; along the way, it takes note of variable definitions and assignments (including function expressions), for which it creates a placeholder in memory for, as well as what gets assigned to it. But that's it, just parses the code and takes note, unless it encounters a function declaration: 
 
-*Function declarations, on the other hand, get treated differently. They are hoisted, meaning they are immediately available for use by executing code in whatever order they are placed.*
+*Function declarations get treated differently. When the browser parses and encounters a function declartion, they are hoisted, meaning they are immediately available for use when the browser goes through and executes the code, in whatever order they are placed.*
 
-Hoisting is the reason functions can be declared *after* they have been invoked in lexical order. The first pass of your code by the interpreter hoisted the function declaration so it is available on execution.
+Hoisting is the reason functions can be declared *after* they have been invoked in lexical order (the way its written). The first pass of your code by the browser hoisted the function declaration so it is available on execution.
 
 ### Way Number 3
 
@@ -56,4 +56,6 @@ const myFunction = (param) => {
 
 Introduced in ES6, arrow functions are the most fun out of the three methods of creating functions. It has the exact same shape as a function expression, different only in its shorthand elegance. Writing arrow functions always gives me the feeling I'm some cool hacker, writing code no one understands. Kind of the same feeling you get writing ternery operators or Regex, or using logical operators as default conditions. 
 
-Without getting too mired in the details, arrow functions differ in one major way to both function expressions and declarations. It's in its relationship to the 'this' object. Wow, say that five times. Whereas non-arrow functions are bound to the object within which they were created (sometimes it's the window object), arrow functions seek out the closest parent object and bind to it. Because of this behavior, functions passed as variables (callbacks) will behave differently depending on how they were created (arrow or non-arrow).   
+Without getting too mired in the details, arrow functions differ in one other major way to both function expressions and declarations. It's in its relationship to the 'this' object. Using non-arrow functions, your 'this' references detach from the intended object if 'this' is invoked within a callback that is once removed from direct ownership of the function. Arrow functions, however, will seek out the closest object in direct parent lineage to attach 'this' to. Please go here for a more detailed treatment and code samples.
+
+That's it for functions. Now get coding!
