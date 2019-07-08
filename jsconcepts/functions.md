@@ -40,9 +40,7 @@ Both methods of creating functions are valid, and acceptable in JavaScript. Both
 
 The biggest difference is in the way the JavaScript interpreter (in ours and most cases, the browser and NodeJS) parses the code. Specifically, *when* the function is available for invocation. On parsing a piece of code, the browser goes from top to bottom; along the way, it takes note of variable definitions and assignments (including function expressions), for which it creates a placeholder in memory for, as well as what gets assigned to it. But that's it, just parses the code and takes note, unless it encounters a function declaration: 
 
-```
-Function declarations get treated differently. When the browser parses and encounters a function declartion, they are hoisted, meaning they are immediately available for use when the browser goes through and executes the code, in whatever order they are placed.
-```
+> Function declarations get treated differently. When the browser parses and encounters a function declartion, they are hoisted, meaning they are immediately available for use when the browser goes through and executes the code, in whatever order they are placed.
 
 Hoisting is the reason functions can be declared *after* they have been invoked in lexical order (the way it's written). The first pass of your code by the browser hoisted the function declaration so it is available on execution.
 
