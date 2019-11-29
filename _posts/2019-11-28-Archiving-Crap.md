@@ -1,0 +1,7 @@
+The following was archived, because I hate deleting shit. It was written back in March 2019 and is no longer relevant... but I have learned sooo much since, and have been super busy. 
+
+----------------------The following was archived 11/28/2019---------------------------
+
+Thanks for stopping by. Not sure why you're here, perhaps a wrong turn at the fork in the interweb road or you want to be completely bored with my 100 Days of Code journal. I created this site to track my progress going through the 100DaysOfCode Challenge. You can read more about the challenge and what it entails [here](https://www.100daysofcode.com/). This is my second attempt at it. On my first attempt I stopped at Day 27 because I started working as a TA at a code bootcamp. While I am coding everyday now for work, it technically does not count toward the challenge. 
+
+My hundred days will be focussed on building applications with ReactJS. I took a class at the University of Washington Continuing Education in 2018 and built a React app as a capstone project, but felt it was rushed, and only satisfied the minimum viable product requirements. My focus has changed somewhat since before I started TA'ing. I am no longer using [Freecodecamp](http://freecodecamp.com) as my main resource. My time will be split between projects to solidify React skills, preparing additional demos to teach the bootcamp in Sept 2019, and extra work to supplement my current TA role.
