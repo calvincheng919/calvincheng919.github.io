@@ -14,6 +14,6 @@ In the meantime, however, I'd never stopped being interested in coding and how s
 
 Now that I'm not "working" fulltime, I can really dive into some of these topics... and who knows, maybe I can parlay it into a second career or business. 
 
-Update 4.10.2021: I've been working as a backend developer [here](https://www.linkedin.com/in/calvincheng/)) since 10.1.2020 - COVID-19 really put a damper on teaching code. I've been slinging NodeJS and Golang code building micro-services. Having fun.
+Update 4.10.2021: I've been working as a backend developer [here](https://www.linkedin.com/in/calvincheng/) since 10.1.2020 - COVID-19 really put a damper on teaching code. I've been slinging NodeJS and Golang code building micro-services. Having fun.
 
 Cheers
