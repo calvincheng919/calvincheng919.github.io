@@ -1,4 +1,9 @@
-# golang pointers 
+---
+title: Golang Pointers
+layout: post
+date: Apr 10, 2021
+---
+
 ## What is the difference between * and &
 
 One of the most fun things as a software developer is learning new languages. NodeJS is awesome, and one of the easiest ways to get a micro-service up and running. I will not go into the pros and cons of NodeJS vs. Golang as a backend language; only to say that the project and client I am working with decided to move to Golang. I love it. There is a learning curve, however, as with most new things you pick up. The basics matter, as you need to learn the alphabet before you can compose full sentences. One of the most basic concepts in Golang (as well as other languages such as C, and C++), is the concept of pointers.
