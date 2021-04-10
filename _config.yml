@@ -14,7 +14,7 @@ show_excerpts: true # set to false to remove excerpts on the homepage
 header_pages:
   - Home: "http://calvincheng.dev"
   - jsconcepts.md
-
+  - about.md
 
 theme: minima
 

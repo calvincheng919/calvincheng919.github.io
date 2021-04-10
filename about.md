@@ -6,12 +6,14 @@ Hello, as I'm sure no one actually reads any of this, the "About" section is als
 
 I live in Bend, OR and love to mountain bike and ski. Whitewater kayaking used to be a sport I enjoy, but the waters around here are really, really hard to paddle (class 4/5), unless you go to the Bend Water Park. Besides, my shoulder is messed up. My wife and I moved here from Seattle in the Spring of 2018. We both quit our corporate jobs. I'd worked at Amazon for close to 10 years, and decided I was done. So, we both quit our jobs, put our Seattle house up for rental and moved to Bend. 
 
-**Why Am I Doing The 100DaysOfCode Challenge?**
+** How I got here **
 
 I started my IT career back in 1999, first as a Network Administrator, and then teaching VB, OOAP and basic web (HTML/CSS) at a now defunct technology school (Information Technology Institute). I've never had a "real" dev job like I imagined so long ago. As the economy slowly recovered from the dotcom crash of the early 2000's, I found myself working for a BI (Business Intelligence) company called Cognos, first as a technical instructor, and then as a consultant implementing BI and datawarehouse solutions to a myriad of companies. Eventually, I got tired of the road and settled down in Seattle to work for Amazon as a BI Manager in Finance, building out the office of finance's BI and Planning platform (read more about my time at Amazon and what I did there, as well as what I'm currently doing, on [LinkedIn](https://www.linkedin.com/in/calvincheng/)).   
 
 In the meantime, however, I'd never stopped being interested in coding and how stuff on the web worked. I self-studied, took courses and generally messed around online for my own edification. My career at Amazon was moving me away from hands-on technology and coding, toward higher management, ...and this is bad how? I wasn't fulfilled, because by the time I was ready to leave, I was a senior manager and actively discouraged to involve myself in code reviews, and design. So after close to 10 years at Amazon, I decided I needed a change, and here we are. 
 
-Now that I'm not "working" fulltime, I can really dive into some of these topics... and who knows, maybe I can parlay it into a second career or business. During this 100 days of code, I'm going to build, and not just walk through an endless number of JS tutorials.
+Now that I'm not "working" fulltime, I can really dive into some of these topics... and who knows, maybe I can parlay it into a second career or business. 
+
+Update 4.10.2021: I've been working as a backend developer [here](https://www.linkedin.com/in/calvincheng/)) since 10.1.2020 - COVID-19 really put a damper on teaching code. I've been slinging NodeJS and Golang code building micro-services. Having fun.
 
 Cheers
