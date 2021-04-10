@@ -24,7 +24,8 @@ As expected, the output of printing the variable "a" to the terminal is the stri
 
 Great, that's easy enough to understand. "&a" simply denotes that the system is to provide the memory address of the variable a. A reference if you will. 
 
-& - Says, "get the address of the variable that follows"
+### What is & in golang?
+>& - Says, "get the address of the variable that follows"
 
 Now let's build on the above code and look at another situation:
 
@@ -40,8 +41,8 @@ func main() {
   fmt.Println(&a) // output: 0xc00010a220 (won't be this exactly)
 
   var b *string = &a //declare "b" as type "pointer to string"
-  fmt.Println(b)
-  fmt.Println(*b)
+  fmt.Println(b) // output: 0xc00010a220 (wont' be this exactly)
+  fmt.Println(*b) // output: hello world
 }
 ```
 `var b *string` says that whatever is assigned to "b" must be a pointer memory address. Furthermore, that memory address must point to a type string. Therefore, on the right side of equation, we assign the pointer memory address of a (&a) to b. 
@@ -50,9 +51,9 @@ The result of outputting b to the terminal is the memory address of a, as denott
 
 The result of outputting *b, however, is "hello world", because prefixing any value (or variable that holds a value) with "*" tells the system to use the value as a pointer and return whatever is at that address. 
 
-### What is * in a type declaration 
-"*" says "you are declaring that this variable holds a memory address to a string, or int or whatever type follows *". For example, "var a *int" declares that the variable "a" holds a memory address(pointer) to an int datatype.
+### What is * in a type declaration? 
+>"*" says "you are declaring that this variable holds a memory address to a string, or int or whatever type follows *". For example, "var a *int" declares that the variable "a" holds a memory address(pointer) to an int datatype.
 
-### What is * everywhere else
+### What is * everywhere else?
 
-"*" says "give me whatever the variable that follows is pointing to". So your variable better be an actual memory address, otherwise you'll get an error. It tells the system to use the value as a pointer and return whatever is at that address.
+>"*" says "give me whatever the variable that follows is pointing to". So your variable better be an actual memory address, otherwise you'll get an error. It tells the system to use the value as a pointer and return whatever is at that address.
